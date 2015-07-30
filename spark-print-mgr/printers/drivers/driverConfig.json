@@ -15,6 +15,14 @@
             "PID"         : 16,
             "driverPath"  : "./drivers/ultimaker",
             "printerType" : "8D39294C-FA7A-40F4-AB79-19F506C64097"
+        },
+        {
+            "type"        : "serial",
+            "description" : "Printrbot",
+            "VID"         : 10612,
+            "PID"         : 1283,
+            "driverPath"  : "./drivers/printrbot",
+            "printerType" : "FDA3C99B-1DF6-48E0-A939-AFA71E640188"
         }
     ]
 }

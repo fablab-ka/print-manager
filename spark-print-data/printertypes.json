@@ -839,18 +839,18 @@
                 "32x32_id" : "data/Hexagon_V2_32x32.png"
              },
              "technology" : "FDM",
-             "default_material_id": "FB67831E-BB63-4C76-BC00-8D84F8F44CB9",
-             "default_profile_id": "EF6D5047-0D09-4F6A-AC06-9EF09638D2C9",
+             "default_material_id": "E0DB1D46-A0AC-43B9-BEC2-157729694C47",
+             "default_profile_id": "2878C729-77AE-4AB8-A481-F73009160F40",
              "firmware": {
                  "type" : "Marlin",
                  "version" : "2.5.4"
              },
              "build_volume": {
                  "type": "Cylindrical",
-                 "bed_size": [17,17,26],
-                 "bed_offset": [-8,-8,0],
+                 "bed_size": [20,20,44],
+                 "bed_offset": [-10,-10,0],
                  "home_position": [0, 0, 0],
-                 "park_position": [0, 0, 250],
+                 "park_position": [0, 0, 440],
                  "bed_file_id": "data/Hexagon_v2.zip"
              },
              "max_materials": 1,
@@ -865,14 +865,14 @@
                     "type": "serial",
                     "discovery": "serial",
                     "protocol": "usb.serial",
-                    "baud" : 250000
+                    "baud" : 115200
                 }
              ],
              "preferred_connection": "serial",
              "max_speeds": {
-                 "x": 20,
-                 "y": 20,
-                 "z": 0.01
+                 "x": 40,
+                 "y": 40,
+                 "z": 40
              },
              "software_info": {
                  "name": "Cura",
@@ -880,21 +880,21 @@
              },
              "printer_capabilities": {
                  "num_extruders": 1,
-                 "nozzle_temp_max": 260,
+                 "nozzle_temp_max": 275,
                  "nozzle_max_volume_per_sec": 300,
                  "nozzle_diameter": 0.04,
                  "nozzle_offset": [0, 0, 0],
-                 "nozzle_retraction_length": 0.45,
-                 "nozzle_lift_z": 0.05,
-                 "nozzle_extra_length_on_restart": 0.15,
-                 "nozzle_retract_speed": 4,
+                 "nozzle_retraction_length": 0.5,
+                 "nozzle_lift_z": 2,
+                 "nozzle_extra_length_on_restart": 0,
+                 "nozzle_retract_speed": 8,
                  "nozzle_min_travel_on_retraction": 0.1,
-                 "bed_temp_max": 100,
-                 "xy_speed_max": 30,
-                 "z_speed_max": 0.01,
-                 "e_speed_max": 2.5,
-                 "travel_feed_rate": 10,
-                 "z_axis_feed_rate": 3
+                 "bed_temp_max": 130,
+                 "xy_speed_max": 40,
+                 "z_speed_max": 40,
+                 "e_speed_max": 15,
+                 "travel_feed_rate": 600,
+                 "z_axis_feed_rate": 600
              },
              "_files": [
                  "icons.16x16_id",

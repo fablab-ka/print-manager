@@ -42,6 +42,10 @@ PrintManagerControllers.run(['$rootScope', '$location', '$window', 'Printers',
             '4A0F7523-071B-4F1E-A527-9DA49AECB807' : {
                 cssClass: 'dfrobot',
                 nickname: 'DreamMaker OverLord'
+            },
+            '6C449D35-ACAA-4365-B08A-57BAC1C297CB' : {
+                cssClass: 'hexagon',
+                nickname: 'Hexagon V2'
             }
        };
 
